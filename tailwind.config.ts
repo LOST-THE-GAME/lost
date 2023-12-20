@@ -72,11 +72,11 @@ module.exports = {
           "100%": { transform: "rotate(0.0deg)" },
         },
         slideL: {
-          "0%": { left: "60%" },
+          "0%": { left: "60%", top: "10%" },
           "25%": { left: "0%" },
-          "50%": { left: "-60%" },
+          "50%": { left: "-60%", bottom: "10%" },
           "75%": { left: "0%" },
-          "100%": { left: "60%" },
+          "100%": { left: "60%", top: "10%" },
         },
         slideR: {
           "0%": { right: "60%" },
@@ -85,6 +85,16 @@ module.exports = {
           "75%": { right: "0%" },
           "100%": { right: "60%" },
         },
+        slideT: {
+          "0%": { top: "0%" },
+          "50%": { top: "81%" },
+          "100%": { top: "00%" },
+        },
+        slideB: {
+          "0%": { bottom: "0%" },
+          "50%": { bottom: "81%" },
+          "100%": { bottom: "0%" },
+        },
       },
       animation: {
         "flicker-text": "flicker 3s infinite",
@@ -92,6 +102,8 @@ module.exports = {
         wave: "wave 2s linear infinite",
         "slide-l": "slideL 3s linear infinite",
         "slide-r": "slideR 3s linear infinite",
+        "slide-t": "slideT 3s linear infinite",
+        "slide-b": "slideB 3s linear infinite",
       },
     },
   },

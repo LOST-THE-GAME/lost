@@ -39,30 +39,21 @@ export default function Contact() {
           </div>
         </SlideIn>
         <SlideIn>
-          <div className="relative w-full mb-32 flex justify-center animate-slide-r">
-            <Image
-              src="/squirt.jpeg"
-              alt="portrait"
-              width={700}
-              height={700}
-              draggable={false}
-            />
-          </div>
-        </SlideIn>
-        <SlideIn>
-          <h1 className="mb-4 pb-2 text-5xl text-zinc-100 font-semibold border-b border-zinc-100">
+          <h1 className="mb-4 pb-2 text-5xl text-zinc-800 font-semibold border-b border-zinc-100">
             Socials
           </h1>
         </SlideIn>
         <SlideIn>
-          <p className="flex justify-center mt-20 text-4xl sm:text-6xl">
-            Play{" "}
-            <span className="mx-2 text-zinc-100 font-medium uppercase">
-              {" "}
-              The Game
-            </span>
-            with us.
-          </p>
+          <div className="flex justify-center mt-20 text-4xl sm:text-6xl">
+            <p className="w-fit px-4 py-2 bg-zinc-400/20 backdrop-blur-md rounded">
+              Play{" "}
+              <span className="mx-2 text-zinc-100 font-medium uppercase">
+                {" "}
+                The Game
+              </span>
+              with us.
+            </p>
+          </div>
           <div className="flex flex-col justify-center items-center mt-4">
             <CopyToClipboard
               text={contract}

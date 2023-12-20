@@ -16,18 +16,29 @@ export default function About() {
     <Element name="about">
       <section className="section-base">
         <SlideIn>
-          <div className="relative w-full mb-32 flex justify-center animate-slide-l">
+          <div className="relative w-full mb-32 flex justify-center animate-slide-r">
             <Image
-              src="/lost.jpeg"
+              src="/squirt.jpeg"
               alt="portrait"
-              width={700}
-              height={700}
+              width={500}
+              height={500}
               draggable={false}
             />
           </div>
+          <div className="relative w-full mb-32 flex justify-center animate-slide-l">
+            <div className="absolute -top-[800px] inset-0 flex justify-center items-center">
+              <Image
+                src="/lost.jpeg"
+                alt="portrait"
+                width={500}
+                height={500}
+                draggable={false}
+              />
+            </div>
+          </div>
         </SlideIn>
         <SlideIn>
-          <h1 className="mb-4 pb-2 text-5xl text-zinc-100 font-semibold border-b border-zinc-100">
+          <h1 className="mb-4 pb-2 text-5xl text-zinc-800 font-semibold border-b border-zinc-100">
             About
           </h1>
         </SlideIn>

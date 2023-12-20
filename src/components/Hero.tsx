@@ -27,10 +27,10 @@ export default function Hero() {
             <p className="mb-3 text-8xl font-semibold text-sky-400">Hey, </p>
           </SlideIn>
           <SlideIn index={16}>
-            <p className="mb-3 text-7xl sm:text-8xl font-semibold text-zinc-800 uppercase">
+            <p className="mb-3 text-7xl sm:text-8xl font-semibold text-zinc-800 uppercase drop-shadow-[0_0_20px_rgba(255,255,255,1.0)]">
               You Lost
             </p>
-            <p className="text-7xl sm:text-8xl font-semibold text-zinc-800 uppercase">
+            <p className="text-7xl sm:text-8xl font-semibold text-zinc-800 uppercase drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
               The Game
             </p>
           </SlideIn>
